@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_menu{
+    font-size: 4rem;
+}
+h1{
+    color:crimson;
+    text-align: center;
+    font-size: 5rem;
+}
+input,label{
+    font-size: 2rem;
+    margin: 0.2rem;
+    padding: 0.5rem;
+}
+
+.main_div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#submitBtn {
+    background-color: rgb(26, 141, 3);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+#submitBtn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 160, 21);
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    box-shadow: 5px 5px 5px rgb(56, 53, 53);
+    cursor: pointer;
